@@ -1,4 +1,4 @@
-# Project Title
+# JustShareKeys
 
 JustShareKeys (abbreviated as JSK) is An application that syncs your keystrokes and mouse button presses with any other computer in the world! The application uses FTP for communication between server and clients. Syncing keystrokes and button presses allow multiple computers to sync their videos even if they are playing them from different platforms. 
 
