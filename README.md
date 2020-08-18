@@ -1,5 +1,7 @@
 # JustShareKeys
 
+![JustShareKeys Logo](https://i.imgur.com/iC78CHh.png)
+
 JustShareKeys (abbreviated as JSK) is An application that syncs your keystrokes and mouse button presses with any other computer in the world! The application uses FTP for communication between server and clients. Syncing keystrokes and button presses allow multiple computers to sync their videos even if they are playing them from different platforms. 
 
 ## Getting Started
@@ -80,19 +82,51 @@ do the following:
 
 ```
 Run the app on a server machine and a client machine (if you don't know how to do that check 'Installing and Running the application' section in this readme file). 
+```
+
+```
 Now press Numlock on server machine to pause process of sharing the keys. 
+
+```
+
+```
 Open a video on both of the machines (The video does not need to be online and it can be playing via any platform)
+
+```
+
+```
 Pause the video on both machines and bring the video to the very start (at 00:00). make the video full screen on the client machine. 
+
+```
+
+```
 Now on server machine bring terminal that is running Connect.py partially over screen of the video that is paused. Now type 'y' without quotation marks in the terminal and press enter (Now your keypresses are being shared). 
+
+```
+
+```
 Lastly on the server machine  Click on the video that is paused.
+
+```
+```
 The video should now be playing at almost the same time on both machines. Now on server machine press 'Right Arrow' key.
+```
+```
 The video should now be forwarded on both machines landing at almost the same time of the video. Now on server machine press 'Space' key followed by 'Esc' key.
+```
+```
 The video should now be paused on both machines and the video might even be out of fullscreen mode on the client machine (depends on wether or not 'Esc' Key disables fullscreen). Now on server machine move your cursor to anywhere on the screen and press 'Left Shift' key. 
+```
+```
 Now the cursor of the client machine should be moving to another location. 
 Now on server machine Press 'Multiply' button. This stops the keyshare process on the server machine.
+```
+```
 Now on server machine Press 'NumLock' button. This pauses the server. Now on server machine bring terminal that is running Connect.py and type 'n' without quotation marks in the terminal and press enter (now your server is stopped).
+```
+
+```
 Now you close all the terminals on both machines.
- 
 
 ```
 
