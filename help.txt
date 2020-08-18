@@ -14,5 +14,5 @@ line3 ==> password
 line4 ==> JustShareKeys
 line5 ==> http://example.com/JustShareKeys/log.txt
 
-Documentaion:
-to be added
+Documentation:
+check readme.md
