@@ -1,0 +1,18 @@
+The credentials to your FTP server should be provided in config.txt
+in order to see an example of a config file open config-example.txt
+
+explanation of config file:
+first line is your FTP address
+second line is your FTP username
+third line is password to your ftp
+fourth line is the name of the folder used for log file. Should be a directory accessible from public_html. Create the directory by yourself.
+fifth line is link to the log file on FTP server. The name of the log file is always 'log.txt'.
+for example:
+line1 => ftp.example.com
+line2 ==> admin
+line3 ==> password
+line4 ==> JustShareKeys
+line5 ==> http://example.com/JustShareKeys/log.txt
+
+Documentaion:
+to be added

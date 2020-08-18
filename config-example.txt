@@ -1,0 +1,7 @@
+ftp.example.com
+admin
+password
+JustShareKeys
+http://example.com/JustShareKeys/log.txt
+
+
