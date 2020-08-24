@@ -42,7 +42,7 @@ http://example.com/JustShareKeys/log.txt
 ```
 After the config file is set up we are ready to run the application. But before doing that all the previous steps need to be done on another machine (since exactly one machine will be server and at least one machine will be client). The client machine does not need to have the FTP credentials in the config.txt file and they can be left empty.  Thus, it is only mandatory to provide line 5 of the config.txt for the client (the first four lines can be empty and fifth line should be filled in).
 
-After the client machine is set up and cofigured, go on the server machine and run the following command in JustShareKeys directory:
+After the client machine is set up and configured, go on the server machine and run the following command in JustShareKeys directory:
 
 ```
 py JSK.py
@@ -65,7 +65,7 @@ py Connect.py
 
 ```
 Now you should be prompted with a message asking for an input. Type 'client' without the quotation marks and press enter key.
-A quick test: go to the client machine open a youtube video. Now go to the server machine and press 'Right arrow' key followed by 'Space' key. Now on the client machine the youtube video should be fast forwarded and stopped as a result. Also if you look inside the terminal (which is running Connect.py) you should see messages stating 'Enter' key and 'Right arrow' key have been pressed. If this quick test was successful then everything is set!
+A quick test: go to the client machine open a Youtube video. Now go to the server machine and press 'Right arrow' key followed by 'Space' key. Now on the client machine the Youtube video should be fast forwarded and stopped as a result. Also if you look inside the terminal (which is running Connect.py) you should see messages stating 'Enter' key and 'Right arrow' key have been pressed. If this quick test was successful then everything is set!
 To learn how to better use the application read the section below (titled: running the tests) 
 
 
@@ -80,61 +80,39 @@ This test will help you sync videos playing on different machines.
 
 do the following:
 
-```
-Run the app on a server machine and a client machine (if you don't know how to do that check 'Installing and Running the application' section in this readme file). 
-```
 
-```
-Now press Numlock on server machine to pause process of sharing the keys. 
+1) Run the app on a server machine and a client machine (if you don't know how to do that check 'Installing and Running the application' section in this readme file). 
 
-```
+2) Now press Numlock on server machine to pause process of sharing the keys. 
 
-```
-Open a video on both of the machines (The video does not need to be online and it can be playing via any platform)
+3) Open a video on both of the machines (The video does not need to be online and it can be playing via any platform)
 
-```
+4) Pause the video on both machines and bring the video to the very start (at 00:00). make the video full screen on the client machine. 
 
-```
-Pause the video on both machines and bring the video to the very start (at 00:00). make the video full screen on the client machine. 
+5) Now on server machine bring terminal that is running Connect.py partially over screen of the video that is paused. Now type 'y' without quotation marks in the terminal and press enter (Now your keypresses are being shared). 
 
-```
+6) Lastly on the server machine  Click on the video that is paused.
 
-```
-Now on server machine bring terminal that is running Connect.py partially over screen of the video that is paused. Now type 'y' without quotation marks in the terminal and press enter (Now your keypresses are being shared). 
+7) The video should now be playing at almost the same time on both machines. Now on server machine press 'Right Arrow' key.
 
-```
+8) The video should now be forwarded on both machines landing at almost the same time of the video. Now on server machine press 'Space' key followed by 'Esc' key.
 
-```
-Lastly on the server machine  Click on the video that is paused.
+9) The video should now be paused on both machines and the video might even be out of Fullscreen mode on the client machine (depends on whether or not 'Esc' Key disables Fullscreen). Now on server machine move your cursor to anywhere on the screen and press 'Left Shift' key. 
 
-```
-```
-The video should now be playing at almost the same time on both machines. Now on server machine press 'Right Arrow' key.
-```
-```
-The video should now be forwarded on both machines landing at almost the same time of the video. Now on server machine press 'Space' key followed by 'Esc' key.
-```
-```
-The video should now be paused on both machines and the video might even be out of fullscreen mode on the client machine (depends on wether or not 'Esc' Key disables fullscreen). Now on server machine move your cursor to anywhere on the screen and press 'Left Shift' key. 
-```
-```
-Now the cursor of the client machine should be moving to another location. 
+10) Now the cursor of the client machine should be moving to another location. 
 Now on server machine Press 'Multiply' button. This stops the keyshare process on the server machine.
-```
-```
-Now on server machine Press 'NumLock' button. This pauses the server. Now on server machine bring terminal that is running Connect.py and type 'n' without quotation marks in the terminal and press enter (now your server is stopped).
-```
 
-```
-Now you close all the terminals on both machines.
+11) Now on server machine Press 'NumLock' button. This pauses the server. Now on server machine bring terminal that is running Connect.py and type 'n' without quotation marks in the terminal and press enter (now your server is stopped).
 
-```
+11) Now you close all the terminals on both machines.
+
+
 
 
 
 ## Contributing
 
-Feel free to fork and expand this project! More information on how you can contribute will be added soon.
+Feel free to fork and expand this project! Send a pull request if you would like to add your code to the project.
 
 ## Versioning
 
