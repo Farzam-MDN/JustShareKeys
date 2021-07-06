@@ -125,13 +125,13 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Farzam Madani** - *Creation of the core application* - [Farzam-MDN](https://github.com/Farzam-MDN)
+* **Farzam Madani** - *Creation of the core application* - [farzammadani](https://github.com/farzammadani)
 
-See also the list of [contributors](https://github.com/Farzam-MDN/JustShareKeys/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/farzammadani/JustShareKeys/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Farzam-MDN/JustShareKeys/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/farzammadani/JustShareKeys/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
